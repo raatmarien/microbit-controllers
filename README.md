@@ -1,7 +1,8 @@
 # Wireless microbit controllers
 
 This allows you to use BBC Microbits as wireless controllers. It
-includes two classic multiplayer games: Pong and Tron.
+includes two classic multiplayer games: Pong and Tron. We also have a
+cool turtle demo.
 
 # How it works
 
@@ -50,7 +51,7 @@ manager.
 ### Running the games
 
 1. Plug in the Microbit server using USB
-2. Run the game you want to play with python3. You may need to change
-the device path, which is `/dev/ttyACM0`, to the path of your Microbit
-server
+2. Run the game you want to play with python3 as root. You may need to
+change the device path, which is `/dev/ttyACM0`, to the path of your
+Microbit server
 3. Enjoy :)
